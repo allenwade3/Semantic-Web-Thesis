@@ -113,10 +113,12 @@
         </owl:Restriction>
     </owl:subClassOf>
     <rdfs:subClassOf>
-        <owl:onProperty rdf:resource="#eaten-by" />
-        <owl:someValuesOf>
-            <owl:Class rdf:resource="#carnivore" />
-        </owl:someValuesOf>
+	<owl:Restriction>
+        	<owl:onProperty rdf:resource="#eaten-by" />
+        	<owl:someValuesOf>
+            		<owl:Class rdf:resource="#carnivore" />
+        	</owl:someValuesOf>
+	</owl:Restriction>
     </rdfs:subClassOf>
 </owl:Class>
 
