@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 # Israel Fermín Montilla <ferminster@gmail.com>
 
-class SimpleGraph:
+class SimpleGraph():
     def __init__(self):
         self._spo = {}
         self._pos = {}
@@ -110,18 +110,39 @@ class SimpleGraph:
             writer.writerow([sub.encode("UTF-8"), pred.encode("UTF-8"), onj.encode("UTF-8")])
         f.close()
 
-
-# Testing
-
-movie_graph = SimpleGraph()
-movie_graph.add(('blade_runner', 'name', 'Blade Runner'))
-movie_graph.add(('blade_runner', 'directed_by', 'ridley_scott'))
-movie_graph.add(('ridley_scott', 'name', 'Ridley Scott'))
-movie_graph.add(('blade_runner', 'directed_by', 'ricardo_casanova'))
-
-print list(movie_graph.triples(('blade_runner', 'directed_by', None)))
-print list(movie_graph.triples((None, 'name', None)))
-
-print movie_graph.value('blade_runner', 'directed_by', None)
-
-print movie_graph.value(None, 'directed_by', 'ridley_scott')
+    def query(self, clauses):
+        bindings = None
+        for clause in clauses:
+            bpos = {}
+            qc = []       # for query clause
+            for pos, elem in enumerate(clause):
+                if elem.startswith('?'):
+                    qc.append(None)
+                    bpos[elem] = pos
+                else:
+                    qc.append(elem)
+            pre_results = list(self.triples((qc[0], qc[1], qc[2])))
+            if bindings == None:
+            # A la primera siempre pasa, los demás si tienen algo
+                bindings = []
+                for pre_result in pre_results:
+                    binding = {}
+                    for var, pos in bpos.items():
+                        binding[var] = pre_result[pos]
+                    bindings.append(binding)
+            else:
+                # Eliminar vínculos que no aplican
+                newb = []
+                for binding in bindings:
+                    for result in pre_results:
+                        valid_match = True
+                        temp_binding = binding.copy()
+                        for var, pos in bpos.items():
+                            if var in temp_binding:
+                                if temp_binding[var] != result[pos]:
+                                    valid_match = False
+                            else:
+                                temp_binding[var] = result[pos]
+                        if valid_match: newb.append(temp_binding)
+                    bindings = newb
+            return bindings
