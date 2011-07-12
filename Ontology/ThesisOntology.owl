@@ -96,8 +96,8 @@
         <ObjectProperty IRI="#related-to"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#is-part-of"/>
+        <ObjectProperty IRI="#contains"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#contains"/>
