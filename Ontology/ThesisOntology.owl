@@ -16,10 +16,11 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#Concept"/>
     </Declaration>
@@ -51,10 +52,25 @@
         <Class IRI="#Unit"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#contents"/>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#develops"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is-part-of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is-reference-in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preceded-by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#related-to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#states"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#has-name"/>
@@ -71,15 +87,94 @@
         <Class IRI="#Team"/>
         <Class IRI="#Entity"/>
     </SubClassOf>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#contents"/>
-    </TransitiveObjectProperty>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is-reference-in"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preceded-by"/>
+        <ObjectProperty IRI="#related-to"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#related-to"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#preceded-by"/>
+    </AsymmetricObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#is-part-of"/>
     </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#preceded-by"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#related-to"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#preceded-by"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#related-to"/>
+    </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preceded-by"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#related-to"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preceded-by"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#related-to"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#has-name"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#Concept"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Discipline"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Enterprise"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#KnowledgeArea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Tool"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Topic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class IRI="#Unit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has-name"/>
+        <Class abbreviatedIRI=":Thing"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#has-name"/>
