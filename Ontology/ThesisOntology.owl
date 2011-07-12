@@ -95,83 +95,48 @@
         <ObjectProperty IRI="#preceded-by"/>
         <ObjectProperty IRI="#related-to"/>
     </SubObjectPropertyOf>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#related-to"/>
-    </SymmetricObjectProperty>
-    <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#preceded-by"/>
-    </AsymmetricObjectProperty>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#is-part-of"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#contains"/>
+    </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#is-part-of"/>
     </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#preceded-by"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#related-to"/>
-    </TransitiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#preceded-by"/>
-    </ReflexiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#related-to"/>
-    </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#preceded-by"/>
-        <Class IRI="#Concept"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#related-to"/>
-        <Class IRI="#Concept"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#preceded-by"/>
-        <Class IRI="#Concept"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#related-to"/>
-        <Class IRI="#Concept"/>
-    </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Concept"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Discipline"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Enterprise"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
+        <ObjectProperty IRI="#develops"/>
         <Class IRI="#Entity"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#KnowledgeArea"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Team"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is-reference-in"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preceded-by"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#related-to"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#develops"/>
         <Class IRI="#Tool"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Topic"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has-name"/>
-        <Class IRI="#Unit"/>
-    </DataPropertyDomain>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is-reference-in"/>
+        <Class IRI="#KnowledgeArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preceded-by"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#related-to"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#has-name"/>
         <Class abbreviatedIRI=":Thing"/>
