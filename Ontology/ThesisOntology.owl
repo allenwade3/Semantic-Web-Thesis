@@ -52,10 +52,40 @@
         <Class IRI="#Unit"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#content-by"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#develops"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-knowledge-area"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-topic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implemented-by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in-discipline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in-knowledge-area"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in-topic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in-unit"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is-part-of"/>
@@ -75,6 +105,24 @@
     <Declaration>
         <DataProperty IRI="#has-name"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beowulf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clusters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComputerScience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OperatingDistributedSystemas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paralelism"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Enterprise"/>
         <Class IRI="#Entity"/>
@@ -87,6 +135,118 @@
         <Class IRI="#Team"/>
         <Class IRI="#Entity"/>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concept"/>
+        <NamedIndividual IRI="#Beowulf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Clusters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Discipline"/>
+        <NamedIndividual IRI="#ComputerScience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeArea"/>
+        <NamedIndividual IRI="#OperatingDistributedSystemas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unit"/>
+        <NamedIndividual IRI="#Paralelism"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#related-to"/>
+        <NamedIndividual IRI="#Beowulf"/>
+        <NamedIndividual IRI="#Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-concept"/>
+        <NamedIndividual IRI="#Clusters"/>
+        <NamedIndividual IRI="#Architecture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-knowledge-area"/>
+        <NamedIndividual IRI="#ComputerScience"/>
+        <NamedIndividual IRI="#OperatingDistributedSystemas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-unit"/>
+        <NamedIndividual IRI="#OperatingDistributedSystemas"/>
+        <NamedIndividual IRI="#Paralelism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-topic"/>
+        <NamedIndividual IRI="#Paralelism"/>
+        <NamedIndividual IRI="#Clusters"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Architecture"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Arquitectura
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Beowulf"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Beowulf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Clusters"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Clusters</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#ComputerScience"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Ciencias de la Computación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#OperatingDistributedSystemas"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sistemas Operativos y Distribuidos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Paralelism"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Paralelismo</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has-concept"/>
+        <ObjectProperty IRI="#is-part-of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has-knowledge-area"/>
+        <ObjectProperty IRI="#is-part-of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has-topic"/>
+        <ObjectProperty IRI="#is-part-of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has-unit"/>
+        <ObjectProperty IRI="#is-part-of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#in-discipline"/>
+        <ObjectProperty IRI="#content-by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#in-knowledge-area"/>
+        <ObjectProperty IRI="#content-by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#in-topic"/>
+        <ObjectProperty IRI="#content-by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#in-unit"/>
+        <ObjectProperty IRI="#content-by"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#is-reference-in"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
@@ -97,10 +257,30 @@
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#is-part-of"/>
-        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#content-by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-concept"/>
+        <ObjectProperty IRI="#in-topic"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-knowledge-area"/>
+        <ObjectProperty IRI="#in-discipline"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-topic"/>
+        <ObjectProperty IRI="#in-unit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-unit"/>
+        <ObjectProperty IRI="#in-knowledge-area"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#implements"/>
+        <ObjectProperty IRI="#implemented-by"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#content-by"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#is-part-of"/>
@@ -108,6 +288,46 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#develops"/>
         <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-concept"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-knowledge-area"/>
+        <Class IRI="#Discipline"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-topic"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-unit"/>
+        <Class IRI="#KnowledgeArea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implemented-by"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#Tool"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#in-discipline"/>
+        <Class IRI="#KnowledgeArea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#in-knowledge-area"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#in-topic"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#in-unit"/>
+        <Class IRI="#Topic"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is-reference-in"/>
@@ -124,6 +344,46 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#develops"/>
         <Class IRI="#Tool"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-concept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-knowledge-area"/>
+        <Class IRI="#KnowledgeArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-topic"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-unit"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implemented-by"/>
+        <Class IRI="#Tool"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#in-discipline"/>
+        <Class IRI="#Discipline"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#in-knowledge-area"/>
+        <Class IRI="#KnowledgeArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#in-topic"/>
+        <Class IRI="#Topic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#in-unit"/>
+        <Class IRI="#Unit"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is-reference-in"/>
