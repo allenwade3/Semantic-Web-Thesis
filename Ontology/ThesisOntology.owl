@@ -55,6 +55,9 @@
         <ObjectProperty IRI="#content-by"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#contents"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#develops"/>
     </Declaration>
     <Declaration>
@@ -86,9 +89,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#in-unit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is-part-of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is-reference-in"/>
@@ -217,19 +217,19 @@
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has-concept"/>
-        <ObjectProperty IRI="#is-part-of"/>
+        <ObjectProperty IRI="#contents"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has-knowledge-area"/>
-        <ObjectProperty IRI="#is-part-of"/>
+        <ObjectProperty IRI="#contents"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has-topic"/>
-        <ObjectProperty IRI="#is-part-of"/>
+        <ObjectProperty IRI="#contents"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has-unit"/>
-        <ObjectProperty IRI="#is-part-of"/>
+        <ObjectProperty IRI="#contents"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#in-discipline"/>
@@ -256,7 +256,7 @@
         <ObjectProperty IRI="#related-to"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#is-part-of"/>
+        <ObjectProperty IRI="#contents"/>
         <ObjectProperty IRI="#content-by"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
@@ -281,9 +281,6 @@
     </InverseObjectProperties>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#content-by"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#is-part-of"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#develops"/>
