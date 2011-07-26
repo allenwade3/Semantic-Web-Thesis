@@ -43,6 +43,21 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#has-resource -->
+
+    <ObjectProperty rdf:about="&ThesisOntology2;has-resource">
+        <rdfs:range rdf:resource="&ThesisOntology2;Resource"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Discipline"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Entity"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Tool"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Topic"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Unit"/>
+    </ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#content-by -->
 
     <ObjectProperty rdf:about="&ThesisOntology;content-by">
@@ -186,7 +201,6 @@
 
     <ObjectProperty rdf:about="&ThesisOntology;preceded-by">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;related-to"/>
     </ObjectProperty>
@@ -196,6 +210,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#related-to -->
 
     <ObjectProperty rdf:about="&ThesisOntology;related-to">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
     </ObjectProperty>
@@ -222,6 +237,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#has-address -->
+
+    <DatatypeProperty rdf:about="&ThesisOntology2;has-address">
+        <rdfs:domain rdf:resource="&ThesisOntology2;Resource"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#has-name -->
 
     <DatatypeProperty rdf:about="&ThesisOntology;has-name">
@@ -239,6 +263,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Resource -->
+
+    <Class rdf:about="&ThesisOntology2;Resource"/>
     
 
 
@@ -319,10 +349,28 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Kernel -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Kernel">
+        <rdf:type rdf:resource="&ThesisOntology;Concept"/>
+        <ThesisOntology:has-name rdf:datatype="&xsd;string">Kernel</ThesisOntology:has-name>
+        <ThesisOntology:in-topic rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Linux -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Linux">
-        <rdf:type rdf:resource="&ThesisOntology;Concept"/>
+        <rdf:type rdf:resource="&ThesisOntology;Tool"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OperatingSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OperatingSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
     </NamedIndividual>
     
 
@@ -332,6 +380,7 @@
     <NamedIndividual rdf:about="&ThesisOntology;Architecture">
         <rdf:type rdf:resource="&ThesisOntology;Concept"/>
         <ThesisOntology:has-name>Arquitectura</ThesisOntology:has-name>
+        <ThesisOntology:preceded-by rdf:resource="&ThesisOntology;Beowulf"/>
         <ThesisOntology:in-topic rdf:resource="&ThesisOntology;Clusters"/>
     </NamedIndividual>
     
@@ -342,7 +391,7 @@
     <NamedIndividual rdf:about="&ThesisOntology;Beowulf">
         <rdf:type rdf:resource="&ThesisOntology;Concept"/>
         <ThesisOntology:has-name>Beowulf</ThesisOntology:has-name>
-        <ThesisOntology:related-to rdf:resource="&ThesisOntology;Architecture"/>
+        <ThesisOntology:preceded-by rdf:resource="&ThesisOntology2;Kernel"/>
         <ThesisOntology:in-topic rdf:resource="&ThesisOntology;Clusters"/>
     </NamedIndividual>
     
