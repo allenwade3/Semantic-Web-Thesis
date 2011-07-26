@@ -353,6 +353,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmsAndComplexity">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -361,6 +362,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;ArchitectureAndOrganization">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -369,6 +371,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;ComputationalScienceAndNumericalMethods">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -385,6 +388,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;DiscreteStructures">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -393,6 +397,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;GraphicsAndVisualComputing">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -401,6 +406,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;HumanComputerInteraction">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -409,6 +415,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -417,6 +424,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;IntelligentSystems">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -425,6 +433,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;NetCentricComputing">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -433,6 +442,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;OperatingSystems">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -441,6 +451,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingFundamentals">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -449,6 +460,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingLanguages">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -457,6 +469,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;SocialAndProfessionalIssues">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
     
 
@@ -465,6 +478,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareEngineering">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
     </NamedIndividual>
 </rdf:RDF>
 
