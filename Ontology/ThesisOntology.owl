@@ -335,6 +335,25 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#Unit -->
 
     <Class rdf:about="&ThesisOntology;Unit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ComputerScience -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ComputerScience">
+        <rdf:type rdf:resource="&ThesisOntology;Discipline"/>
+    </NamedIndividual>
 </rdf:RDF>
 
 
