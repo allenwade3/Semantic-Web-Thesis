@@ -367,6 +367,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicLogic -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicLogic">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicsofCounting -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicsofCounting">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ComputationalScienceAndNumericalMethods -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ComputationalScienceAndNumericalMethods">
@@ -384,6 +402,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DiscreteProbability -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DiscreteProbability">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DiscreteStructures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DiscreteStructures">
@@ -393,11 +420,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FuncionsRelationsSets -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FuncionsRelationsSets">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#GraphicsAndVisualComputing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;GraphicsAndVisualComputing">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#GraphsAndTrees -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;GraphsAndTrees">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
     </NamedIndividual>
     
 
@@ -461,6 +506,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingLanguages">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProofTechniques -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProofTechniques">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
     </NamedIndividual>
     
 
