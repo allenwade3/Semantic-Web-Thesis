@@ -349,6 +349,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmicStrategies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmicStrategies">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmsAndComplexity -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmsAndComplexity">
@@ -372,6 +381,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ArchitectureAndOrganization">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicAlgorithmicAnalysis -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicAlgorithmicAnalysis">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicComputability -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicComputability">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
     </NamedIndividual>
     
 
@@ -429,6 +456,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DistributedAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DistributedAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#EventDrivenProgramming -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;EventDrivenProgramming">
@@ -443,6 +479,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FuncionsRelationsSets">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalComputingAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalComputingAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
     </NamedIndividual>
     
 
