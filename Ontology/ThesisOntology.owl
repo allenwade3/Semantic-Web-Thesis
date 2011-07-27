@@ -385,6 +385,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AssemblyLevelMachineOrganization -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AssemblyLevelMachineOrganization">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BasicAlgorithmicAnalysis -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BasicAlgorithmicAnalysis">
@@ -438,6 +447,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DigitalLogicAndDigitalSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DigitalLogicAndDigitalSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DiscreteProbability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DiscreteProbability">
@@ -479,6 +497,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FuncionsRelationsSets">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FunctionalOrganization -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FunctionalOrganization">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
     </NamedIndividual>
     
 
@@ -551,6 +578,42 @@
     <NamedIndividual rdf:about="&ThesisOntology2;IntelligentSystems">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InterfacingAndCommunication -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InterfacingAndCommunication">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MachineLevelRepresentationofData -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MachineLevelRepresentationofData">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MemorySystemOrganizationAndArchitecture -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MemorySystemOrganizationAndArchitecture">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MultiprocesingAndAlternativeArchitectures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
     </NamedIndividual>
     
 
