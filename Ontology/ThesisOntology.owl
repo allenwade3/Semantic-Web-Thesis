@@ -358,6 +358,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmsAndProblemSolving -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmsAndProblemSolving">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ArchitectureAndOrganization -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ArchitectureAndOrganization">
@@ -420,11 +429,38 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#EventDrivenProgramming -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;EventDrivenProgramming">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FuncionsRelationsSets -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FuncionsRelationsSets">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalDataStructures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalDataStructures">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalProgrammingContructs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalProgrammingContructs">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
     </NamedIndividual>
     
 
@@ -515,6 +551,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProofTechniques">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Recursion -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Recursion">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
     </NamedIndividual>
     
 
