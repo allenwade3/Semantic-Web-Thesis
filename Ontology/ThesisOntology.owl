@@ -591,6 +591,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalTechniquesinGraphics -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalTechniquesinGraphics">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;GraphicsAndVisualComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#GraphicSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;GraphicSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;GraphicsAndVisualComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#GraphicsAndVisualComputing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;GraphicsAndVisualComputing">
