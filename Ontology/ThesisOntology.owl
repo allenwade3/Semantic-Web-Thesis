@@ -447,6 +447,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Concurrency -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Concurrency">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DigitalLogicAndDigitalSystems -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DigitalLogicAndDigitalSystems">
@@ -600,6 +609,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MemoryManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MemoryManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#MemorySystemOrganizationAndArchitecture -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;MemorySystemOrganizationAndArchitecture">
@@ -636,6 +654,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OperatingSystemsPrinciples -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OperatingSystemsPrinciples">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OverviewofOperatingSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OverviewofOperatingSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingFundamentals -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingFundamentals">
@@ -668,6 +704,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;Recursion">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SchedulingAndDispatch -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SchedulingAndDispatch">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
     </NamedIndividual>
     
 
