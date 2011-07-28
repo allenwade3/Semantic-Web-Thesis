@@ -990,6 +990,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProjectManagement">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
     </NamedIndividual>
     
 
