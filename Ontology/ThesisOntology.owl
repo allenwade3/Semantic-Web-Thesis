@@ -439,6 +439,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BuildingaSimpleGUI -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BuildingaSimpleGUI">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;HumanComputerInteraction"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CommunicationAndNetworking -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CommunicationAndNetworking">
@@ -524,6 +533,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;EventDrivenProgramming">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FoundationsofHumanComputerInteraction -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FoundationsofHumanComputerInteraction">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;HumanComputerInteraction"/>
     </NamedIndividual>
     
 
