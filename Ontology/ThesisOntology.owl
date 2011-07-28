@@ -483,6 +483,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DataModeling -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DataModeling">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;InformationManagement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DatabaseSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DatabaseSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;InformationManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DeclarationAndTypes -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DeclarationAndTypes">
@@ -650,6 +668,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InformationModelsAndSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InformationModelsAndSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;InformationManagement"/>
     </NamedIndividual>
     
 
