@@ -349,6 +349,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AbstractionMechanisms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AbstractionMechanisms">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmicStrategies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmicStrategies">
@@ -461,6 +470,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;Concurrency">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DeclarationAndTypes -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DeclarationAndTypes">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
     </NamedIndividual>
     
 
@@ -618,6 +636,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LanguageTranslation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LanguageTranslation">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#MachineLevelRepresentationofData -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;MachineLevelRepresentationofData">
@@ -672,6 +699,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedProgramming -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedProgramming">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#OperatingSystems -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;OperatingSystems">
@@ -695,6 +731,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;OverviewofOperatingSystems">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OverviewofProgrammingLanguages -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OverviewofProgrammingLanguages">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
     </NamedIndividual>
     
 
@@ -767,6 +812,14 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TheWebAsClientServerComputing">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;NetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#VirtualMachines -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;VirtualMachines">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
     </NamedIndividual>
 </rdf:RDF>
 
