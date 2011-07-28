@@ -582,6 +582,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalIssuesinIntelligentSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalIssuesinIntelligentSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;IntelligentSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalProgrammingContructs -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FundamentalProgrammingContructs">
@@ -668,6 +677,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToNetCentricComputing">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;NetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#KnowledgeRepresentationAndReasoning -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;KnowledgeRepresentationAndReasoning">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;IntelligentSystems"/>
     </NamedIndividual>
     
 
@@ -821,6 +839,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SchedulingAndDispatch">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SearchAndConstraintSatisfaction -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SearchAndConstraintSatisfaction">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;IntelligentSystems"/>
     </NamedIndividual>
     
 
