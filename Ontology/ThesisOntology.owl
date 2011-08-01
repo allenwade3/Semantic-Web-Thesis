@@ -856,6 +856,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;VirtualMachines">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
     </NamedIndividual>
 </rdf:RDF>
 
