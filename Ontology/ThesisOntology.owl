@@ -699,6 +699,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LimitationsofPredicateLogic -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LimitationsofPredicateLogic">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LogicalConnectives -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LogicalConnectives">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#MachineLevelRepresentationofData -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;MachineLevelRepresentationofData">
@@ -726,6 +744,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ModusPonensAndModusTollens -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ModusPonensAndModusTollens">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#MultiprocesingAndAlternativeArchitectures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures">
@@ -749,6 +776,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;NetworkSecurity">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;NetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NormalForms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NormalForms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
     </NamedIndividual>
     
 
@@ -807,6 +843,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PredicateLogic -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PredicateLogic">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingFundamentals -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingFundamentals">
@@ -830,6 +875,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProofTechniques">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PropositionalLogic -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PropositionalLogic">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
     </NamedIndividual>
     
 
@@ -893,6 +947,33 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TheWebAsClientServerComputing">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;NetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TruthTables -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TruthTables">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UniversalExistencialQuantification -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UniversalExistencialQuantification">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Validity -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Validity">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
     </NamedIndividual>
     
 
