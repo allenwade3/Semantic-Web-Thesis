@@ -492,6 +492,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CountingArguments -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CountingArguments">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DeclarationAndTypes -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DeclarationAndTypes">
@@ -861,10 +870,20 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PermutationsAndCombinations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PermutationsAndCombinations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PigeonholePrinciple -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PigeonholePrinciple">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
     </NamedIndividual>
     
@@ -1001,6 +1020,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareEngineering">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SolvingRecurrenceRelations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SolvingRecurrenceRelations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
     </NamedIndividual>
     
 
