@@ -510,6 +510,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DirectProofs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DirectProofs">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DiscreteProbability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DiscreteProbability">
@@ -726,6 +735,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MathematicalInduction -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MathematicalInduction">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#MemoryManagement -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;MemoryManagement">
@@ -785,6 +803,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;NormalForms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NotionsofImplication -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NotionsofImplication">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
     </NamedIndividual>
     
 
@@ -879,6 +906,33 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProofbyContradiction -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProofbyContradiction">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProofbyContraposition -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProofbyContraposition">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProofbyCounterexample -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProofbyCounterexample">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PropositionalLogic -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PropositionalLogic">
@@ -893,6 +947,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;Recursion">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RecursiveMathematicalDefinitions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RecursiveMathematicalDefinitions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
     </NamedIndividual>
     
 
@@ -942,6 +1005,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StrongInduction -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StrongInduction">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheStructureofFormalProofs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheStructureofFormalProofs">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TheWebAsClientServerComputing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TheWebAsClientServerComputing">
@@ -983,6 +1064,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;VirtualMachines">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#WellOrderings -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;WellOrderings">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
     </NamedIndividual>
 </rdf:RDF>
 
