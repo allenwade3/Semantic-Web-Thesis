@@ -448,6 +448,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CardinalityAndCountability -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CardinalityAndCountability">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CommunicationAndNetworking -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CommunicationAndNetworking">
@@ -560,6 +569,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FunctionalOrganization">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Functions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Functions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
     </NamedIndividual>
     
 
@@ -780,6 +798,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PigeonholePrinciple -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PigeonholePrinciple">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingFundamentals -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingFundamentals">
@@ -816,11 +843,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Relations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Relations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SchedulingAndDispatch -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SchedulingAndDispatch">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Sets -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Sets">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
     </NamedIndividual>
     
 
