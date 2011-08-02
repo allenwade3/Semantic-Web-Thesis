@@ -430,6 +430,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicSyntaxAndSemanticsHighLevelLanguages -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicSyntaxAndSemanticsHighLevelLanguages">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BasicsofCounting -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BasicsofCounting">
@@ -497,6 +506,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ConditionalProbability">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DiscreteProbability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ControlStructures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ControlStructures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
     </NamedIndividual>
     
 
@@ -623,6 +641,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;Functions">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FunctionsAndParameterPassing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FunctionsAndParameterPassing">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
     </NamedIndividual>
     
 
@@ -1042,6 +1069,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SimpleIO -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SimpleIO">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SocialAndProfessionalIssues -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SocialAndProfessionalIssues">
@@ -1083,6 +1119,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;StrongInduction">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StructuredDecomposition -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StructuredDecomposition">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
     </NamedIndividual>
     
 
@@ -1155,6 +1200,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;Validity">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#VariableTypesExpressionsAssignments -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;VariableTypesExpressionsAssignments">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
     </NamedIndividual>
     
 
