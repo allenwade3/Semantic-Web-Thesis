@@ -430,6 +430,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Backtracking -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Backtracking">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BasicAlgorithmicAnalysis -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BasicAlgorithmicAnalysis">
@@ -489,6 +498,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;BigOLittleOOmegaAndThetaNotations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BranchAndBound -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BranchAndBound">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BruteForceAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BruteForceAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
     </NamedIndividual>
     
 
@@ -663,6 +690,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DivideAndConquer -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DivideAndConquer">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DivideAndConquerStrategies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DivideAndConquerStrategies">
@@ -830,6 +866,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;GraphsAndTrees">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#GreedyAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;GreedyAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Heuristics -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Heuristics">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
     </NamedIndividual>
     
 
@@ -1050,6 +1104,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NumericalApproximationAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NumericalApproximationAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedProgramming -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedProgramming">
@@ -1091,6 +1154,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;OverviewofProgrammingLanguages">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PatternMatchingAndTextAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PatternMatchingAndTextAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
     </NamedIndividual>
     
 
