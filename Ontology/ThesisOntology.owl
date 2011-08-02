@@ -492,6 +492,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConditionalProbability -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConditionalProbability">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DiscreteProbability"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CountingArguments -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CountingArguments">
@@ -569,6 +578,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;EventDrivenProgramming">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingFundamentals"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FiniteProbabilitySpace -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FiniteProbabilitySpace">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DiscreteProbability"/>
     </NamedIndividual>
     
 
@@ -686,6 +704,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntegerRandomVariables -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntegerRandomVariables">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DiscreteProbability"/>
     </NamedIndividual>
     
 
