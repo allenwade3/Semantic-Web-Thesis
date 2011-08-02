@@ -574,11 +574,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CacheMemories -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CacheMemories">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CardinalityAndCountability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CardinalityAndCountability">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CodingDataCompressionAndDataIntegrity -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CodingDataCompressionAndDataIntegrity">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
     </NamedIndividual>
     
 
@@ -830,6 +848,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ExceptionHandling">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;EventDrivenProgramming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FaultHandlingAndReliability -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FaultHandlingAndReliability">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
     </NamedIndividual>
     
 
@@ -1149,6 +1176,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LatencyCycleTimeBandwidthAndInterleaving -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LatencyCycleTimeBandwidthAndInterleaving">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#LimitationsofPredicateLogic -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;LimitationsofPredicateLogic">
@@ -1194,11 +1230,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MainMemoryOrganizationAndOperations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MainMemoryOrganizationAndOperations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#MathematicalInduction -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;MathematicalInduction">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MemoryHierachy -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MemoryHierachy">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
     </NamedIndividual>
     
 
@@ -1735,6 +1789,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StorageSystemsAndTheirTechnology -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StorageSystemsAndTheirTechnology">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StrategiesForChoosingTheRightDataStructure -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StrategiesForChoosingTheRightDataStructure">
@@ -1947,6 +2010,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;VirtualMachines">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#VirtualMemory -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;VirtualMemory">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
     </NamedIndividual>
     
 
