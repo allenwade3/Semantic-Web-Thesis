@@ -403,6 +403,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Arrays -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Arrays">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AssemblyLevelMachineOrganization -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AssemblyLevelMachineOrganization">
@@ -542,6 +551,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;CountingArguments">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DataRepresentationinMemory -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DataRepresentationinMemory">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
     </NamedIndividual>
     
 
@@ -762,6 +780,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationStrategiesForGraphsAndTrees -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ImplementationStrategiesForGraphsAndTrees">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationStrategiesforStacksQueuesAndHashTables -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ImplementationStrategiesforStacksQueuesAndHashTables">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InformationManagement -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
@@ -821,6 +857,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;LimitationsofPredicateLogic">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LinkedStructures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LinkedStructures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
     </NamedIndividual>
     
 
@@ -988,11 +1033,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PointersAndReferences -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PointersAndReferences">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PredicateLogic -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PredicateLogic">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PrimitiveTypes -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PrimitiveTypes">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
     </NamedIndividual>
     
 
@@ -1069,6 +1132,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Records -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Records">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Recursion -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Recursion">
@@ -1092,6 +1164,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;Relations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RuntimeStorageManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RuntimeStorageManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
     </NamedIndividual>
     
 
@@ -1155,6 +1236,33 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SpanningTrees">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StaticStachAndHeapAllocation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StaticStachAndHeapAllocation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StrategiesForChoosingTheRightDataStructure -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StrategiesForChoosingTheRightDataStructure">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StringsAndStringProcessing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StringsAndStringProcessing">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
     </NamedIndividual>
     
 
