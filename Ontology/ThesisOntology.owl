@@ -636,6 +636,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DivideAndConquerStrategies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DivideAndConquerStrategies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#EventDrivenProgramming -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;EventDrivenProgramming">
@@ -794,6 +803,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ImplementationStrategiesforStacksQueuesAndHashTables">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationofRecursion -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ImplementationofRecursion">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
     </NamedIndividual>
     
 
@@ -1150,11 +1168,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RecursiveBacktracking -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RecursiveBacktracking">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RecursiveMathematicalDefinitions -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RecursiveMathematicalDefinitions">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RecursiveMathematicalFuncions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RecursiveMathematicalFuncions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
     </NamedIndividual>
     
 
@@ -1200,6 +1236,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SimpleIO">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SimpleRecursiveProcedures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SimpleRecursiveProcedures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
     </NamedIndividual>
     
 
@@ -1281,6 +1326,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;StructuredDecomposition">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheConceptofRecursion -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheConceptofRecursion">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
     </NamedIndividual>
     
 
