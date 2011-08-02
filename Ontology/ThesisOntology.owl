@@ -654,6 +654,33 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#EventHandlingMethods -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;EventHandlingMethods">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;EventDrivenProgramming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#EventPropagation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;EventPropagation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;EventDrivenProgramming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ExceptionHandling -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ExceptionHandling">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;EventDrivenProgramming"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FiniteProbabilitySpace -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FiniteProbabilitySpace">
