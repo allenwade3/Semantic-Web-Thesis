@@ -574,6 +574,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Buses -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Buses">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CacheMemories -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CacheMemories">
@@ -852,6 +861,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ExternalStoragePhysicalOrganizationAndDrives -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ExternalStoragePhysicalOrganizationAndDrives">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FaultHandlingAndReliability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FaultHandlingAndReliability">
@@ -1059,6 +1077,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IOFundamentals -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IOFundamentals">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationStrategiesForAlgorithms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ImplementationStrategiesForAlgorithms">
@@ -1158,11 +1185,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InterruptStructures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InterruptStructures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductionToNetCentricComputing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToNetCentricComputing">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;NetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductionToNetworks -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToNetworks">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
     </NamedIndividual>
     
 
@@ -1289,6 +1334,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ModusPonensAndModusTollens">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MultimediaSupport -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MultimediaSupport">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
     </NamedIndividual>
     
 
@@ -1542,6 +1596,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PropositionalLogic">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RAIDArchitectures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RAIDArchitectures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
     </NamedIndividual>
     
 
