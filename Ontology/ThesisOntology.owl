@@ -511,6 +511,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BitsBytesAndWords -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BitsBytesAndWords">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BranchAndBound -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BranchAndBound">
@@ -812,6 +821,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FiniteStateMachines">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FixedAndFloatingPointSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FixedAndFloatingPointSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
     </NamedIndividual>
     
 
@@ -1203,6 +1221,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NumericDataRepresentationAndNumericBases -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NumericDataRepresentationAndNumericBases">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#NumericalApproximationAlgorithms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;NumericalApproximationAlgorithms">
@@ -1465,6 +1492,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RepresentationofNonnumericData -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RepresentationofNonnumericData">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RepresentationofRecordsAndArrays -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RepresentationofRecordsAndArrays">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RepresentationsofGraphs -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RepresentationsofGraphs">
@@ -1515,6 +1560,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ShortestPathAlgorithms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SignedAndTwosComplementRepresentations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SignedAndTwosComplementRepresentations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
     </NamedIndividual>
     
 
