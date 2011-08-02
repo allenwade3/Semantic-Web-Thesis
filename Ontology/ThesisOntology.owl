@@ -358,6 +358,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AddressingModes -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AddressingModes">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmicStrategies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmicStrategies">
@@ -412,6 +421,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AssemblyLanguageProgramming -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AssemblyLanguageProgramming">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AssemblyLevelMachineOrganization -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AssemblyLevelMachineOrganization">
@@ -462,6 +480,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;BasicLogic">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicOrganizationoftheVonNewmanMachine -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicOrganizationoftheVonNewmanMachine">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
     </NamedIndividual>
     
 
@@ -632,6 +659,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ControlStructures">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ControlUnit -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ControlUnit">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
     </NamedIndividual>
     
 
@@ -987,6 +1023,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IOAndInterrupts -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IOAndInterrupts">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationStrategiesForAlgorithms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ImplementationStrategiesForAlgorithms">
@@ -1037,6 +1082,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InstructionFormats -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InstructionFormats">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InstructionSetsAndTypes -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InstructionSetsAndTypes">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
     </NamedIndividual>
     
 
@@ -1704,6 +1767,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;StructuredDecomposition">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SubroutineCallsAndReturnMechanisms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SubroutineCallsAndReturnMechanisms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
     </NamedIndividual>
     
 
