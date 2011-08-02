@@ -609,6 +609,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ContextFreeGrammars -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ContextFreeGrammars">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ControlStructures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ControlStructures">
@@ -798,6 +807,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FiniteStateMachines -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FiniteStateMachines">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FoundationsofHumanComputerInteraction -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FoundationsofHumanComputerInteraction">
@@ -974,6 +992,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ImplementationofRecursion">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ImplicationsofUncomputability -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ImplicationsofUncomputability">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
     </NamedIndividual>
     
 
@@ -1600,6 +1627,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheHaltingProblem -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheHaltingProblem">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TheStructureofFormalProofs -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TheStructureofFormalProofs">
@@ -1636,6 +1672,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TractableAndIntractableProblems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TractableAndIntractableProblems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TransitiveClosure -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TransitiveClosure">
@@ -1668,6 +1713,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TruthTables">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UncomputableFunctions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UncomputableFunctions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
     </NamedIndividual>
     
 
