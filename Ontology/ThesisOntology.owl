@@ -421,6 +421,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AsymptoticAnalysisofUpperAndAverageBounds -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AsymptoticAnalysisofUpperAndAverageBounds">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BasicAlgorithmicAnalysis -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BasicAlgorithmicAnalysis">
@@ -462,6 +471,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;BasicsofCounting">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BestAverageAndWorstCaseBehaviors -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BestAverageAndWorstCaseBehaviors">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BigOLittleOOmegaAndThetaNotations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BigOLittleOOmegaAndThetaNotations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
     </NamedIndividual>
     
 
@@ -641,6 +668,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DivideAndConquerStrategies">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#EmpiricMeasurementsofPerformance -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;EmpiricMeasurementsofPerformance">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
     </NamedIndividual>
     
 
@@ -1312,6 +1348,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StandardComplexityClasses -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StandardComplexityClasses">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StaticStachAndHeapAllocation -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StaticStachAndHeapAllocation">
@@ -1384,6 +1429,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TimeAndSpaceTradeoffsinAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TimeAndSpaceTradeoffsinAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TraversalStrategies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TraversalStrategies">
@@ -1425,6 +1479,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;UniversalExistencialQuantification">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UsingRecurrenceRelationsWithRecursiveAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UsingRecurrenceRelationsWithRecursiveAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
     </NamedIndividual>
     
 
