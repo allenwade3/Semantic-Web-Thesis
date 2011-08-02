@@ -861,6 +861,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalBuildingBlocks -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalBuildingBlocks">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalComputingAlgorithms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FundamentalComputingAlgorithms">
@@ -1077,6 +1086,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LogicExpressionsMinimizationSumofProductsForms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LogicExpressionsMinimizationSumofProductsForms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#LogicalConnectives -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;LogicalConnectives">
@@ -1221,6 +1239,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OverviewAndHistoryofComputerArchitecture -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OverviewAndHistoryofComputerArchitecture">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#OverviewofOperatingSystems -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;OverviewofOperatingSystems">
@@ -1253,6 +1280,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PermutationsAndCombinations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PhysicalConsiderations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PhysicalConsiderations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
     </NamedIndividual>
     
 
@@ -1407,6 +1443,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RecursiveMathematicalFuncions">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RegisterTransferNotation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RegisterTransferNotation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
     </NamedIndividual>
     
 
