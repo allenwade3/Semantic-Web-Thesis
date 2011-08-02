@@ -600,6 +600,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConsensusAndElection -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConsensusAndElection">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DistributedAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ControlStructures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ControlStructures">
@@ -767,6 +776,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ExceptionHandling">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;EventDrivenProgramming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FaultTolerance -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FaultTolerance">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DistributedAlgorithms"/>
     </NamedIndividual>
     
 
@@ -1501,6 +1519,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Stabilization -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Stabilization">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DistributedAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StandardComplexityClasses -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StandardComplexityClasses">
@@ -1551,6 +1578,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;StructuredDecomposition">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TerminationDetection -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TerminationDetection">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DistributedAlgorithms"/>
     </NamedIndividual>
     
 
