@@ -528,6 +528,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DirectedGraphs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DirectedGraphs">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DiscreteProbability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DiscreteProbability">
@@ -1033,6 +1042,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SpanningTrees -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SpanningTrees">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StrongInduction -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StrongInduction">
@@ -1060,11 +1078,38 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TraversalStrategies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TraversalStrategies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Trees -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Trees">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TruthTables -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TruthTables">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UndirectedGraphs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UndirectedGraphs">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
     </NamedIndividual>
     
 
