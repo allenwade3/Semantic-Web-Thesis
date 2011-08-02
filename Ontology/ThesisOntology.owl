@@ -385,6 +385,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmsinProblemSolving -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmsinProblemSolving">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ArchitectureAndOrganization -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ArchitectureAndOrganization">
@@ -492,6 +501,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConceptAndPropertiesofAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConceptAndPropertiesofAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Concurrency -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Concurrency">
@@ -524,6 +542,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;CountingArguments">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DebuggingStrategies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DebuggingStrategies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
     </NamedIndividual>
     
 
@@ -722,6 +749,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;HumanComputerInteraction">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationStrategiesForAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ImplementationStrategiesForAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
     </NamedIndividual>
     
 
@@ -957,6 +993,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PredicateLogic">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProblemSolvingStrategies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProblemSolvingStrategies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
     </NamedIndividual>
     
 
