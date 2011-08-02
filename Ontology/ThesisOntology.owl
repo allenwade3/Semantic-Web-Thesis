@@ -502,6 +502,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BinarySearchTrees -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BinarySearchTrees">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BranchAndBound -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BranchAndBound">
@@ -632,6 +641,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DeclarationAndTypes">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DepthAndBreadthFirstTraversals -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DepthAndBreadthFirstTraversals">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
     </NamedIndividual>
     
 
@@ -879,6 +897,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HashTables -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HashTables">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Heuristics -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Heuristics">
@@ -1046,6 +1073,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;MemorySystemOrganizationAndArchitecture">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MinimumSpanningTree -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MinimumSpanningTree">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
     </NamedIndividual>
     
 
@@ -1339,6 +1375,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RepresentationsofGraphs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RepresentationsofGraphs">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RuntimeStorageManagement -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RuntimeStorageManagement">
@@ -1357,6 +1402,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SequencialAndBinarySearchAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SequencialAndBinarySearchAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Sets -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Sets">
@@ -1366,11 +1420,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ShortestPathAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ShortestPathAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SimpleIO -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SimpleIO">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SimpleNumericalAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SimpleNumericalAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
     </NamedIndividual>
     
 
@@ -1407,6 +1479,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SolvingRecurrenceRelations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SortingAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SortingAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
     </NamedIndividual>
     
 
@@ -1506,6 +1587,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TimeAndSpaceTradeoffsinAlgorithms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TopologicalSort -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TopologicalSort">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TransitiveClosure -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TransitiveClosure">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
     </NamedIndividual>
     
 
