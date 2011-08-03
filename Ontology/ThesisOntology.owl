@@ -1275,6 +1275,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalDefinitions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalDefinitions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalIssuesinIntelligentSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalIssuesinIntelligentSystems -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;FundamentalIssuesinIntelligentSystems">
@@ -1397,6 +1406,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;HierarchiofGraphicsSoftware">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofArtificialInteligence -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HistoryofArtificialInteligence">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalIssuesinIntelligentSystems"/>
     </NamedIndividual>
     
 
@@ -1869,6 +1887,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ModelingTheWorld -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ModelingTheWorld">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalIssuesinIntelligentSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ModelsAndMechanisms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ModelsAndMechanisms">
@@ -2135,6 +2162,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PermutationsAndCombinations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PhilosophicalQuestions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PhilosophicalQuestions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalIssuesinIntelligentSystems"/>
     </NamedIndividual>
     
 
@@ -2919,6 +2955,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TheMutualExclusionProblemAndSolutions">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheRoleofHeuristics -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheRoleofHeuristics">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalIssuesinIntelligentSystems"/>
     </NamedIndividual>
     
 
