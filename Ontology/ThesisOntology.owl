@@ -466,6 +466,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AuthenticationProtocols -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AuthenticationProtocols">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BackgroundAndHistoryofNetworkingAndInternet -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BackgroundAndHistoryofNetworkingAndInternet">
@@ -888,6 +897,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DigitalSinatures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DigitalSinatures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DirectProofs -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DirectProofs">
@@ -1154,6 +1172,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FundamentalTechniquesinGraphics">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;GraphicsAndVisualComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalsofCryptography -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalsofCryptography">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
     </NamedIndividual>
     
 
@@ -1644,6 +1671,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NetworkSecurityExamples -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NetworkSecurityExamples">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#NetworkStandardsAndStandarizationBodies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;NetworkStandardsAndStandarizationBodies">
@@ -1942,6 +1978,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PublicKeyAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PublicKeyAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RAIDArchitectures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RAIDArchitectures">
@@ -2082,6 +2127,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SchedulingAndDispatch">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SecretKeyAlgorithms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SecretKeyAlgorithms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
     </NamedIndividual>
     
 
