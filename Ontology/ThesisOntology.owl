@@ -583,6 +583,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BestFirstSearch -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BestFirstSearch">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SearchAndConstraintSatisfaction"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BigOLittleOOmegaAndThetaNotations -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BigOLittleOOmegaAndThetaNotations">
@@ -624,6 +633,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;BruteForceAlgorithms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmicStrategies"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BruteForceSearch -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BruteForceSearch">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SearchAndConstraintSatisfaction"/>
     </NamedIndividual>
     
 
@@ -839,6 +857,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ConsensusAndElection">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DistributedAlgorithms"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConstraintSatisfaction -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConstraintSatisfaction">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SearchAndConstraintSatisfaction"/>
     </NamedIndividual>
     
 
@@ -2293,6 +2320,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProblemSpaces -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProblemSpaces">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SearchAndConstraintSatisfaction"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProceduresFunctionsIteratorsasAbstractionMethods -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProceduresFunctionsIteratorsasAbstractionMethods">
@@ -3063,6 +3099,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TruthTables">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TwoPlayerGames -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TwoPlayerGames">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SearchAndConstraintSatisfaction"/>
     </NamedIndividual>
     
 
