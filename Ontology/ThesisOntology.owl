@@ -358,6 +358,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AbstractionProcessesResources -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AbstractionProcessesResources">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AddressingModes -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AddressingModes">
@@ -399,6 +408,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmsinProblemSolving">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ApplicationNeedsAndEvolutionofHardwareAndSoftwareTechniques -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ApplicationNeedsAndEvolutionofHardwareAndSoftwareTechniques">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
     </NamedIndividual>
     
 
@@ -654,6 +672,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConceptofUserSystemStateAndProtection -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConceptofUserSystemStateAndProtection">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConceptsofApplicationProgrammingInterfaces -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConceptsofApplicationProgrammingInterfaces">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Concurrency -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Concurrency">
@@ -767,6 +803,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DesignIssues">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofOperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DeviceOrganization -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DeviceOrganization">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
     </NamedIndividual>
     
 
@@ -1271,6 +1316,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InterruptStructures">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Interrupts -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Interrupts">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
     </NamedIndividual>
     
 
@@ -2028,6 +2082,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;StructuredDecomposition">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StructuringMethods -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StructuringMethods">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OperatingSystemsPrinciples"/>
     </NamedIndividual>
     
 
