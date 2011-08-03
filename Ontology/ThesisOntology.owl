@@ -799,6 +799,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ComponentsofDatabaseSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ComponentsofDatabaseSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ComputationalScienceAndNumericalMethods -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ComputationalScienceAndNumericalMethods">
@@ -942,6 +951,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DBMSFunctions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DBMSFunctions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DataLinkLayerConcepts -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DataLinkLayerConcepts">
@@ -956,6 +974,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DataRepresentationinMemory">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DatabaseArchitectureAndInformationIndependence -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DatabaseArchitectureAndInformationIndependence">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseSystems"/>
     </NamedIndividual>
     
 
@@ -1469,6 +1496,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;HierarchiofGraphicsSoftware">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryAndMotivationforDatabaseSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HistoryAndMotivationforDatabaseSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseSystems"/>
     </NamedIndividual>
     
 
@@ -3279,6 +3315,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;UniversalExistencialQuantification">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UseofaDatabaseQueryLanguage -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UseofaDatabaseQueryLanguage">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseSystems"/>
     </NamedIndividual>
     
 
