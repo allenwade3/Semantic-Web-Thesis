@@ -367,6 +367,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AccomodatingHumanDiversity -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AccomodatingHumanDiversity">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ActivarionRecordsAndStorageManagement -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ActivarionRecordsAndStorageManagement">
@@ -821,6 +830,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ContextFreeGrammars">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ContextsForHCI -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ContextsForHCI">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
     </NamedIndividual>
     
 
@@ -1356,11 +1374,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HumanCenteredDevelopmentAndEvaluation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HumanCenteredDevelopmentAndEvaluation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#HumanComputerInteraction -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;HumanComputerInteraction">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HumanPerformanceModels -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HumanPerformanceModels">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
     </NamedIndividual>
     
 
@@ -1590,6 +1626,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductionToUsabilityTesting -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToUsabilityTesting">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductiontoInstructionLevelParalelism -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;IntroductiontoInstructionLevelParalelism">
@@ -1775,6 +1820,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ModusPonensAndModusTollens">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MotivationWhyCareAboutPeople -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MotivationWhyCareAboutPeople">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
     </NamedIndividual>
     
 
@@ -2091,6 +2145,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PrimitiveTypes">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PrinciplesofGoodDesign -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PrinciplesofGoodDesign">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
     </NamedIndividual>
     
 
