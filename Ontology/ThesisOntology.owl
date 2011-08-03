@@ -394,6 +394,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AffineTransformations -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AffineTransformations">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AlgorithmicStrategies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AlgorithmicStrategies">
@@ -705,6 +714,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ClassesAndSubclasses">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Clipping -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Clipping">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
     </NamedIndividual>
     
 
@@ -1365,6 +1383,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HierarchiofGraphicsSoftware -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HierarchiofGraphicsSoftware">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofOperatingSystemDevelopment -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;HistoryofOperatingSystemDevelopment">
@@ -1379,6 +1406,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;HistoryofProgrammingLanguages">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HomogeneousCoordinates -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HomogeneousCoordinates">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
     </NamedIndividual>
     
 
@@ -2536,6 +2572,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SimpleColorModels -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SimpleColorModels">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SimpleIO -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SimpleIO">
@@ -2968,6 +3013,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UsingaGraphicsAPI -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UsingaGraphicsAPI">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Validity -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Validity">
@@ -2982,6 +3036,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;VariableTypesExpressionsAssignments">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ViewingTransformation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ViewingTransformation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
     </NamedIndividual>
     
 
