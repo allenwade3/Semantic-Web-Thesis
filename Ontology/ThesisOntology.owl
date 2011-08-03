@@ -951,6 +951,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DatabaseModeling -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DatabaseModeling">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DatabaseSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DatabaseSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DeadlinesAndRealTimeIssues -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DeadlinesAndRealTimeIssues">
@@ -1595,6 +1613,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InformationModelsAndSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InformationModelsAndSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
     </NamedIndividual>
     
 
