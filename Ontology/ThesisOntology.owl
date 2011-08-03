@@ -583,6 +583,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CacheCoherence -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CacheCoherence">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CacheMemories -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CacheMemories">
@@ -1203,6 +1212,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InterconnectionNetworks -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InterconnectionNetworks">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InterfacingAndCommunication -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InterfacingAndCommunication">
@@ -1343,6 +1361,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;MemoryManagement">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;OperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MemoryModelsAndMemoryConsistency -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MemoryModelsAndMemoryConsistency">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
     </NamedIndividual>
     
 
@@ -1771,6 +1798,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SharedMemorySystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SharedMemorySystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ShortestPathAlgorithms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ShortestPathAlgorithms">
@@ -1785,6 +1821,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SignedAndTwosComplementRepresentations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MachineLevelRepresentationofData"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SimdMimdVliwEpic -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SimdMimdVliwEpic">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
     </NamedIndividual>
     
 
@@ -1938,6 +1983,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SubroutineCallsAndReturnMechanisms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SystolicArchitecture -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SystolicArchitecture">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
     </NamedIndividual>
     
 
