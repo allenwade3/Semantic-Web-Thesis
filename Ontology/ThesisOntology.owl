@@ -1284,6 +1284,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#GUIToolkits -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;GUIToolkits">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BuildingaSimpleGUI"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#GarbageCollection -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;GarbageCollection">
@@ -2154,6 +2163,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PrinciplesofGoodDesign">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FoundationsofHumanComputerInteraction"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PrinciplesofGraphicalUserInterfaces -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PrinciplesofGraphicalUserInterfaces">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BuildingaSimpleGUI"/>
     </NamedIndividual>
     
 
