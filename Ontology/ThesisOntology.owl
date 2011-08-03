@@ -1257,11 +1257,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HierachyofVirtualMachines -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HierachyofVirtualMachines">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;VirtualMachines"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofOperatingSystemDevelopment -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;HistoryofOperatingSystemDevelopment">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofOperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofProgrammingLanguages -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HistoryofProgrammingLanguages">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofProgrammingLanguages"/>
     </NamedIndividual>
     
 
@@ -1424,6 +1442,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InterfacingAndCommunication">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;AlgorithmsAndComplexity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntermediateLanguages -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntermediateLanguages">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;VirtualMachines"/>
     </NamedIndividual>
     
 
@@ -1960,6 +1987,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingParadigms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingParadigms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProofTechniques -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProofTechniques">
@@ -2181,6 +2217,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SecretKeyAlgorithms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SecurityIssuesFromTunningCodeonanAlienMachine -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SecurityIssuesFromTunningCodeonanAlienMachine">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;VirtualMachines"/>
     </NamedIndividual>
     
 
@@ -2469,6 +2514,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TheConceptofRecursion">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Recursion"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheConceptofaVirtualMachine -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheConceptofaVirtualMachine">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;VirtualMachines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheEffectsofScaleonProgrammingMethodology -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheEffectsofScaleonProgrammingMethodology">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofProgrammingLanguages"/>
     </NamedIndividual>
     
 
