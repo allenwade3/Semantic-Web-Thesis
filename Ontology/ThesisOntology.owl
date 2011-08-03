@@ -466,6 +466,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BackgroundAndHistoryofNetworkingAndInternet -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BackgroundAndHistoryofNetworkingAndInternet">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;IntroductionToNetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Backtracking -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Backtracking">
@@ -1590,6 +1599,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NetworkArchitectures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NetworkArchitectures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;IntroductionToNetCentricComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#NetworkSecurity -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;NetworkSecurity">
@@ -2145,6 +2163,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SpanningTrees">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphsAndTrees"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SpecializationsWithinNetCentricComputing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SpecializationsWithinNetCentricComputing">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;IntroductionToNetCentricComputing"/>
     </NamedIndividual>
     
 
