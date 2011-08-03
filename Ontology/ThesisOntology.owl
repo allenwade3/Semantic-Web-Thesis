@@ -619,6 +619,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Caching -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Caching">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CardinalityAndCountability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CardinalityAndCountability">
@@ -1653,6 +1662,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OverlaysSwappingAndPartitions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OverlaysSwappingAndPartitions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#OverviewAndHistoryofComputerArchitecture -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;OverviewAndHistoryofComputerArchitecture">
@@ -1676,6 +1694,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;OverviewofProgrammingLanguages">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PagingAndSegmentation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PagingAndSegmentation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
     </NamedIndividual>
     
 
@@ -1713,6 +1740,15 @@
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FuncionsRelationsSets"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PlacementAndReplacementPolicies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PlacementAndReplacementPolicies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
     </NamedIndividual>
     
 
@@ -1938,6 +1974,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RepresentationsofGraphs">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ReviewofPhysicalMemoryAndMemoryManagementHardware -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ReviewofPhysicalMemoryAndMemoryManagementHardware">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
     </NamedIndividual>
     
 
@@ -2424,6 +2469,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;WellOrderings">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ProofTechniques"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#WorkingSetsAndThrasing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;WorkingSetsAndThrasing">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
     </NamedIndividual>
 </rdf:RDF>
 
