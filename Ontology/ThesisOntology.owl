@@ -655,6 +655,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CharacteristicsofWebServers -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CharacteristicsofWebServers">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CircuitSwitchingAndPacketSwitching -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CircuitSwitchingAndPacketSwitching">
@@ -875,6 +884,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DesignIssues">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofOperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DevelopingInternetInformationServers -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DevelopingInternetInformationServers">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
     </NamedIndividual>
     
 
@@ -1644,6 +1662,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NatureofClientServerRelationship -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NatureofClientServerRelationship">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#NetCentricComputing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;NetCentricComputing">
@@ -1987,6 +2014,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PublishingInformationAndApplications -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PublishingInformationAndApplications">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RAIDArchitectures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RAIDArchitectures">
@@ -2100,6 +2136,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RoleAndPurposeofTheOperatingSystem">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofOperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RoleofClientComputers -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RoleofClientComputers">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
     </NamedIndividual>
     
 
@@ -2392,6 +2437,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SupportToolsForWebSiteCreationAndWebManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SupportToolsForWebSiteCreationAndWebManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SystolicArchitecture -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SystolicArchitecture">
@@ -2613,6 +2667,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;VirtualMemory">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#WebProtocols -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;WebProtocols">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#WebTechnologies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;WebTechnologies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;TheWebAsClientServerComputing"/>
     </NamedIndividual>
     
 
