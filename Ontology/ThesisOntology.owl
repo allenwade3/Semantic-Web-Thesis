@@ -682,11 +682,38 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ClassHierarchies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ClassHierarchies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ClassesAndSubclasses -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ClassesAndSubclasses">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CodingDataCompressionAndDataIntegrity -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CodingDataCompressionAndDataIntegrity">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemorySystemOrganizationAndArchitecture"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CollectionClassesAndIterationProtocols -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CollectionClassesAndIterationProtocols">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
     </NamedIndividual>
     
 
@@ -1028,6 +1055,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;EmpiricMeasurementsofPerformance">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#EncapsulationAndInformationHiding -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;EncapsulationAndInformationHiding">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
     </NamedIndividual>
     
 
@@ -1419,6 +1455,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Inheritance -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Inheritance">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InstructionFormats -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InstructionFormats">
@@ -1487,6 +1532,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;IntermediateLanguages">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;VirtualMachines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InternalRepresentationofObjectsAndMethodTables -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InternalRepresentationofObjectsAndMethodTables">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
     </NamedIndividual>
     
 
@@ -1842,6 +1896,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedDesign -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedDesign">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedProgramming -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedProgramming">
@@ -1992,6 +2055,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PointersAndReferences">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Polymorphism -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Polymorphism">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
     </NamedIndividual>
     
 
@@ -2316,6 +2388,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SecurityIssuesFromTunningCodeonanAlienMachine">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;VirtualMachines"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SeparationofBehaviorAndImplementation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SeparationofBehaviorAndImplementation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;ObjectOrientedProgramming"/>
     </NamedIndividual>
     
 
