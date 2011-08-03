@@ -699,6 +699,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConcurrentExecutionAdvantagesDisadvantages -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConcurrentExecutionAdvantagesDisadvantages">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ConditionalProbability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ConditionalProbability">
@@ -767,6 +776,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DataRepresentationinMemory">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DeadlocksCausesConditionsPrevention -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DeadlocksCausesConditionsPrevention">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
     </NamedIndividual>
     
 
@@ -857,6 +875,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DiscreteStructures">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DispatchingAndContextSwitching -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DispatchingAndContextSwitching">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
     </NamedIndividual>
     
 
@@ -1491,6 +1518,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ModelsAndMechanisms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ModelsAndMechanisms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ModusPonensAndModusTollens -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ModusPonensAndModusTollens">
@@ -1514,6 +1550,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MultiprocessorIssues -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MultiprocessorIssues">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
     </NamedIndividual>
     
 
@@ -1695,6 +1740,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProblemSolvingStrategies">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProducerConsumerProblemsAndSynchronization -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProducerConsumerProblemsAndSynchronization">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
     </NamedIndividual>
     
 
@@ -2032,6 +2086,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StatesAndStateDriagrams -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StatesAndStateDriagrams">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StaticStachAndHeapAllocation -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StaticStachAndHeapAllocation">
@@ -2086,6 +2149,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Structures -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Structures">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StructuringMethods -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StructuringMethods">
@@ -2136,6 +2208,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TheHaltingProblem">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicComputability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheMutualExclusionProblemAndSolutions -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheMutualExclusionProblemAndSolutions">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheRoleofInterrupts -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheRoleofInterrupts">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
     </NamedIndividual>
     
 
