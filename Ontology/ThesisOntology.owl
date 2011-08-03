@@ -691,6 +691,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ComparisonofInterpretersAndCompilers -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ComparisonofInterpretersAndCompilers">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;LanguageTranslation"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ComputationalScienceAndNumericalMethods -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ComputationalScienceAndNumericalMethods">
@@ -1518,6 +1527,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LanguageTranslationPhases -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LanguageTranslationPhases">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;LanguageTranslation"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#LatencyCycleTimeBandwidthAndInterleaving -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;LatencyCycleTimeBandwidthAndInterleaving">
@@ -1559,6 +1577,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;LogicalConnectives">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MachineDepentAndIndependentAspectsofTranslation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MachineDepentAndIndependentAspectsofTranslation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;LanguageTranslation"/>
     </NamedIndividual>
     
 
