@@ -699,6 +699,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ControlUnitHardwiredvsMicroprogrammed -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ControlUnitHardwiredvsMicroprogrammed">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FunctionalOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CountingArguments -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CountingArguments">
@@ -1122,6 +1131,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ImplementationofSimpleDatapaths -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ImplementationofSimpleDatapaths">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FunctionalOrganization"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ImplicationsofUncomputability -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ImplicationsofUncomputability">
@@ -1145,6 +1163,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;InstructionFormats">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AssemblyLevelMachineOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InstructionPipelining -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InstructionPipelining">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FunctionalOrganization"/>
     </NamedIndividual>
     
 
@@ -1208,6 +1235,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToNetworks">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductiontoInstructionLevelParalelism -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntroductiontoInstructionLevelParalelism">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FunctionalOrganization"/>
     </NamedIndividual>
     
 
