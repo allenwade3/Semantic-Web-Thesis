@@ -1009,7 +1009,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;DatabaseModeling">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
-        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DatabaseModeling"/>
     </NamedIndividual>
     
 
@@ -1018,7 +1018,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;DatabaseSystems">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
-        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DatabaseModeling"/>
     </NamedIndividual>
     
 
@@ -1545,6 +1545,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofComputing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HistoryofComputing">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofOperatingSystemDevelopment -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;HistoryofOperatingSystemDevelopment">
@@ -1711,7 +1720,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;InformationModelsAndSystems">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
-        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DatabaseModeling"/>
     </NamedIndividual>
     
 
@@ -1766,6 +1775,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;IntegerRandomVariables">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DiscreteProbability"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntellectualProperty -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntellectualProperty">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
     </NamedIndividual>
     
 
@@ -2036,6 +2054,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;MemorySystemOrganizationAndArchitecture">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ArchitectureAndOrganization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#MethodsAndToolsofAnalysis -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;MethodsAndToolsofAnalysis">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
     </NamedIndividual>
     
 
@@ -2464,6 +2491,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PrivacyAndCivilLiberties -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PrivacyAndCivilLiberties">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProbabilisticReasoning -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProbabilisticReasoning">
@@ -2514,6 +2550,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProducerConsumerProblemsAndSynchronization">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;Concurrency"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProfessionalAndEthicalResponsibilities -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProfessionalAndEthicalResponsibilities">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
     </NamedIndividual>
     
 
@@ -2752,6 +2797,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RiksAndLiabilitiesofComputerBasedSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RiksAndLiabilitiesofComputerBasedSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RoleAndPurposeofTheOperatingSystem -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RoleAndPurposeofTheOperatingSystem">
@@ -2946,6 +3000,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SocialAndProfessionalIssues">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SocialContextofComputing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SocialContextofComputing">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SocialAndProfessionalIssues"/>
     </NamedIndividual>
     
 
