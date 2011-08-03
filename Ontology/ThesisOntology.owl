@@ -1689,6 +1689,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IssuesFacingTheDeveloperofGraphicalSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IssuesFacingTheDeveloperofGraphicalSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphicSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#LanguageTranslation -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;LanguageTranslation">
@@ -2112,6 +2121,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PhysicalAndLogicalInputDevices -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PhysicalAndLogicalInputDevices">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphicSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PhysicalConsiderations -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PhysicalConsiderations">
@@ -2343,6 +2361,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RAIDArchitectures">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InterfacingAndCommunication"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RasterAndVectorGraphicsSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RasterAndVectorGraphicsSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphicSystems"/>
     </NamedIndividual>
     
 
@@ -3036,6 +3063,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;VariableTypesExpressionsAssignments">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#VideoDisplayDevices -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;VideoDisplayDevices">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;GraphicSystems"/>
     </NamedIndividual>
     
 
