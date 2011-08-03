@@ -367,6 +367,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ActivarionRecordsAndStorageManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ActivarionRecordsAndStorageManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AbstractionMechanisms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AddressingModes -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AddressingModes">
@@ -879,6 +888,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DeclarationModels -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DeclarationModels">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DeclarationAndTypes"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DepthAndBreadthFirstTraversals -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DepthAndBreadthFirstTraversals">
@@ -1208,6 +1226,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FundamentalsofCryptography">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;NetworkSecurity"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#GarbageCollection -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;GarbageCollection">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DeclarationAndTypes"/>
     </NamedIndividual>
     
 
@@ -1680,6 +1707,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ModulesinProgrammingLanguages -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ModulesinProgrammingLanguages">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AbstractionMechanisms"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ModusPonensAndModusTollens -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ModusPonensAndModusTollens">
@@ -1869,11 +1905,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#OverviewofTypeChecking -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;OverviewofTypeChecking">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DeclarationAndTypes"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PagingAndSegmentation -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PagingAndSegmentation">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MemoryManagement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ParametrizationMechanisms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ParametrizationMechanisms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AbstractionMechanisms"/>
     </NamedIndividual>
     
 
@@ -1974,6 +2028,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProblemSolvingStrategies">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProceduresFunctionsIteratorsasAbstractionMethods -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProceduresFunctionsIteratorsasAbstractionMethods">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AbstractionMechanisms"/>
     </NamedIndividual>
     
 
@@ -2536,6 +2599,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheConceptionofTypes -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheConceptionofTypes">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DeclarationAndTypes"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TheConceptofRecursion -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TheConceptofRecursion">
@@ -2685,6 +2757,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TruthTables">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicLogic"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TypeParametersAndParameterizedTypes -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TypeParametersAndParameterizedTypes">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AbstractionMechanisms"/>
     </NamedIndividual>
     
 
