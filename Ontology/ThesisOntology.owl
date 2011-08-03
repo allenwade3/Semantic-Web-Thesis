@@ -439,6 +439,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#AnalysisAndIndexing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;AnalysisAndIndexing">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ApplicationNeedsAndEvolutionofHardwareAndSoftwareTechniques -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ApplicationNeedsAndEvolutionofHardwareAndSoftwareTechniques">
@@ -1464,6 +1473,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryAndMotivationforInformationSystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;HistoryAndMotivationforInformationSystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#HistoryofArtificialInteligence -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;HistoryofArtificialInteligence">
@@ -1608,6 +1626,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InformationCaptureAndRepresentation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InformationCaptureAndRepresentation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InformationManagement -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InformationManagement">
@@ -1617,11 +1644,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InformationManagementApplications -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InformationManagementApplications">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InformationModelsAndSystems -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InformationModelsAndSystems">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationManagement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InformationStorageAndRetrieval -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InformationStorageAndRetrieval">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
     </NamedIndividual>
     
 
@@ -2662,6 +2707,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ScalabilityEfficiencyAndEffectiveness -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ScalabilityEfficiencyAndEffectiveness">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SchedulersAndPolicies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SchedulersAndPolicies">
@@ -2685,6 +2739,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SearchAndConstraintSatisfaction">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;IntelligentSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SearchRetrievalLinkingNavigation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SearchRetrievalLinkingNavigation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;InformationModelsAndSystems"/>
     </NamedIndividual>
     
 
