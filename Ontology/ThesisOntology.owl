@@ -780,6 +780,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DeadlinesAndRealTimeIssues -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DeadlinesAndRealTimeIssues">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SchedulingAndDispatch"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DeadlocksCausesConditionsPrevention -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DeadlocksCausesConditionsPrevention">
@@ -1726,6 +1735,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PreemptiveAndNonpreemptiveScheduling -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PreemptiveAndNonpreemptiveScheduling">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SchedulingAndDispatch"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PrimitiveTypes -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PrimitiveTypes">
@@ -1740,6 +1758,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProblemSolvingStrategies">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProcessesAndThreads -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProcessesAndThreads">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SchedulingAndDispatch"/>
     </NamedIndividual>
     
 
@@ -1929,6 +1956,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RuntimeStorageManagement">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalDataStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SchedulersAndPolicies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SchedulersAndPolicies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SchedulingAndDispatch"/>
     </NamedIndividual>
     
 
