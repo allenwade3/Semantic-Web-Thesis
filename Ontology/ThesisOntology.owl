@@ -646,6 +646,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CircuitSwitchingAndPacketSwitching -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CircuitSwitchingAndPacketSwitching">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CodingDataCompressionAndDataIntegrity -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CodingDataCompressionAndDataIntegrity">
@@ -785,6 +794,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;CountingArguments">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicsofCounting"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DataLinkLayerConcepts -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DataLinkLayerConcepts">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
     </NamedIndividual>
     
 
@@ -1365,6 +1383,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#InternetworkingAndRouting -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;InternetworkingAndRouting">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InterruptStructures -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InterruptStructures">
@@ -1617,6 +1644,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#NetworkStandardsAndStandarizationBodies -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;NetworkStandardsAndStandarizationBodies">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#NormalForms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;NormalForms">
@@ -1748,6 +1784,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;PhysicalConsiderations">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#PhysicalLayerNetworkingConcepts -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;PhysicalLayerNetworkingConcepts">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
     </NamedIndividual>
     
 
@@ -2230,6 +2275,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StreamsAndDatagrams -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StreamsAndDatagrams">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#StringsAndStringProcessing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;StringsAndStringProcessing">
@@ -2320,6 +2374,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TheISO7LayerReferenceModel -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TheISO7LayerReferenceModel">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TheMutualExclusionProblemAndSolutions -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TheMutualExclusionProblemAndSolutions">
@@ -2388,6 +2451,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TransitiveClosure">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TransportLayerServices -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TransportLayerServices">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
     </NamedIndividual>
     
 
