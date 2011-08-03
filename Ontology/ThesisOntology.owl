@@ -3013,11 +3013,74 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareDesign -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareDesign">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareEngineering -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareEngineering">
         <rdf:type rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <ThesisOntology:in-discipline rdf:resource="&ThesisOntology2;ComputerScience"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareEvolution -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareEvolution">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareProcesses -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProcesses">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareProjectManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProjectManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareRequirementsAndSpecifications -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareRequirementsAndSpecifications">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareToolsAndEnviroments -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareToolsAndEnviroments">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareValidation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareValidation">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
     </NamedIndividual>
     
 
@@ -3423,6 +3486,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;UseofaDatabaseQueryLanguage">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UsingAPIs -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UsingAPIs">
+        <rdf:type rdf:resource="&ThesisOntology;Unit"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
     </NamedIndividual>
     
 
