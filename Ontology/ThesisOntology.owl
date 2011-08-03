@@ -852,6 +852,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConceptualModels -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConceptualModels">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseModeling"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#Concurrency -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;Concurrency">
@@ -965,6 +974,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DataLinkLayerConcepts">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;CommunicationAndNetworking"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DataModeling -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DataModeling">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseModeling"/>
     </NamedIndividual>
     
 
@@ -2211,6 +2229,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedModel -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedModel">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseModeling"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedProgramming -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedProgramming">
@@ -2658,6 +2685,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RegisterTransferNotation">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DigitalLogicAndDigitalSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RelationalModel -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RelationalModel">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;DatabaseModeling"/>
     </NamedIndividual>
     
 
