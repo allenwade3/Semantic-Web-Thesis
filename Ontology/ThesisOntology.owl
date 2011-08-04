@@ -2770,6 +2770,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProjectManagementTools -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProjectManagementTools">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProjectScheduling -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProjectScheduling">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProofTechniques -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProofTechniques">
@@ -3031,6 +3049,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RiskAnalysis -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RiskAnalysis">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RoleAndPurposeofTheOperatingSystem -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RoleAndPurposeofTheOperatingSystem">
@@ -3247,6 +3274,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareConfigurationManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareConfigurationManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareDesign -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareDesign">
@@ -3292,6 +3328,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareMeasurementAndEstimationTechniques -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareMeasurementAndEstimationTechniques">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareProcessMetrics -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProcessMetrics">
@@ -3315,6 +3360,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProjectManagement">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareQualityAssurance -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareQualityAssurance">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
     </NamedIndividual>
     
 
@@ -3531,6 +3585,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SystolicArchitecture">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;MultiprocesingAndAlternativeArchitectures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TeamManagement -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TeamManagement">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProjectManagement"/>
     </NamedIndividual>
     
 
