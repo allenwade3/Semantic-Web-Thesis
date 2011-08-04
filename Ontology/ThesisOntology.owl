@@ -349,6 +349,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#APIProgramming -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;APIProgramming">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;UsingAPIs"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#AbstractionMechanisms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;AbstractionMechanisms">
@@ -736,6 +745,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ClassBrowsersAndRelatedTools -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ClassBrowsersAndRelatedTools">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;UsingAPIs"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ClassHierarchies -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ClassHierarchies">
@@ -1055,6 +1073,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;DebuggingStrategies">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;AlgorithmsAndProblemSolving"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DebugginginTheAPIEnviroment -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DebugginginTheAPIEnviroment">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;UsingAPIs"/>
     </NamedIndividual>
     
 
@@ -1896,6 +1923,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductionToComponentBasedComputing -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToComponentBasedComputing">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;UsingAPIs"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#IntroductionToNetCentricComputing -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;IntroductionToNetCentricComputing">
@@ -2631,6 +2667,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingParadigms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingbyExample -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingbyExample">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;UsingAPIs"/>
     </NamedIndividual>
     
 
