@@ -655,6 +655,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BlackBoxAndWhiteBoxTestingTechniques -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BlackBoxAndWhiteBoxTestingTechniques">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareValidation"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BranchAndBound -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BranchAndBound">
@@ -1833,6 +1842,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Inspections -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Inspections">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareValidation"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#InstructionFormats -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;InstructionFormats">
@@ -2378,6 +2396,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedProgramming">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;ProgrammingLanguages"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedTesting -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedTesting">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareValidation"/>
     </NamedIndividual>
     
 
@@ -3472,6 +3499,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TestingFundamentals -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TestingFundamentals">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareValidation"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TestingTools -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TestingTools">
@@ -3697,6 +3733,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#UnitIntegrationValidationAndSystemTesting -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;UnitIntegrationValidationAndSystemTesting">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareValidation"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#UniversalExistencialQuantification -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;UniversalExistencialQuantification">
@@ -3738,6 +3783,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;UsingaGraphicsAPI">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalTechniquesinGraphics"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ValidationPlanning -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ValidationPlanning">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareValidation"/>
     </NamedIndividual>
     
 
