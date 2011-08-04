@@ -915,6 +915,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ConfigurationManagementTools -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ConfigurationManagementTools">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareToolsAndEnviroments"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ConsensusAndElection -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ConsensusAndElection">
@@ -2644,6 +2653,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingEnviroments -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingEnviroments">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareToolsAndEnviroments"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProgrammingFundamentals -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProgrammingFundamentals">
@@ -2865,6 +2883,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RepresentationsofGraphs">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalComputingAlgorithms"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RequirementsAnalysisAndDesignModelingTools -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RequirementsAnalysisAndDesignModelingTools">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareToolsAndEnviroments"/>
     </NamedIndividual>
     
 
@@ -3373,6 +3400,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#TestingTools -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;TestingTools">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareToolsAndEnviroments"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#TheConceptionofTypes -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;TheConceptionofTypes">
@@ -3477,6 +3513,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;TimeAndSpaceTradeoffsinAlgorithms">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;BasicAlgorithmicAnalysis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ToolIntegrationMechanisms -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ToolIntegrationMechanisms">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareToolsAndEnviroments"/>
     </NamedIndividual>
     
 
