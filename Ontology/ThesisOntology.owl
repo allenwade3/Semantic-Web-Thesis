@@ -799,6 +799,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ComponentLevelDesign -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ComponentLevelDesign">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ComponentsofDatabaseSystems -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ComponentsofDatabaseSystems">
@@ -1077,11 +1086,29 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DesignForReuse -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DesignForReuse">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#DesignIssues -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;DesignIssues">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;OverviewofOperatingSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#DesignPatterns -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;DesignPatterns">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
     </NamedIndividual>
     
 
@@ -1388,6 +1415,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FundamentalDefinitions">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalIssuesinIntelligentSystems"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FundamentalDesignConceptsAndPrinciples -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FundamentalDesignConceptsAndPrinciples">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
     </NamedIndividual>
     
 
@@ -2247,6 +2283,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedAnalysisAndDesign -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedAnalysisAndDesign">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ObjectOrientedDesign -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ObjectOrientedDesign">
@@ -3013,6 +3058,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareArchitecture -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareArchitecture">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareDesign -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareDesign">
@@ -3207,6 +3261,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;StructuredDecomposition">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;FundamentalProgrammingContructs"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#StructuredDesign -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;StructuredDesign">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareDesign"/>
     </NamedIndividual>
     
 
