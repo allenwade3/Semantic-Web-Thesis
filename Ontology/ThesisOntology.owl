@@ -556,6 +556,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#BasicConceptsofFormalSpecificationTechniques -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;BasicConceptsofFormalSpecificationTechniques">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareRequirementsAndSpecifications"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#BasicLogic -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;BasicLogic">
@@ -1379,6 +1388,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;FuncionsRelationsSets">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DiscreteStructures"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#FunctionalAndNonfunctionalRequirements -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;FunctionalAndNonfunctionalRequirements">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareRequirementsAndSpecifications"/>
     </NamedIndividual>
     
 
@@ -2761,6 +2779,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Prototyping -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Prototyping">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareRequirementsAndSpecifications"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#PublicKeyAlgorithms -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;PublicKeyAlgorithms">
@@ -2901,6 +2928,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;RequirementsAnalysisAndDesignModelingTools">
         <rdf:type rdf:resource="&ThesisOntology;Topic"/>
         <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareToolsAndEnviroments"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RequirementsAnalysisModelingTechniques -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RequirementsAnalysisModelingTechniques">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareRequirementsAndSpecifications"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#RequirementsElicitation -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;RequirementsElicitation">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareRequirementsAndSpecifications"/>
     </NamedIndividual>
     
 
