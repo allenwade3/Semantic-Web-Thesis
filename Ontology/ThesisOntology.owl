@@ -745,6 +745,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#CharacteristicsofMaintainableSoftware -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;CharacteristicsofMaintainableSoftware">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareEvolution"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#CharacteristicsofWebServers -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;CharacteristicsofWebServers">
@@ -2058,6 +2067,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#LegacySystems -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;LegacySystems">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareEvolution"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#LimitationsofPredicateLogic -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;LimitationsofPredicateLogic">
@@ -2896,6 +2914,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#Reengineering -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;Reengineering">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareEvolution"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#RegisterTransferNotation -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;RegisterTransferNotation">
@@ -3256,6 +3283,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareMaintenance -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareMaintenance">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareEvolution"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareProcessMetrics -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProcessMetrics">
@@ -3288,6 +3324,15 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareRequirementsAndSpecifications">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareReuse -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareReuse">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareEvolution"/>
     </NamedIndividual>
     
 
