@@ -1072,7 +1072,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;DatabaseModeling">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
-        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DatabaseModeling"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;InformationManagement"/>
     </NamedIndividual>
     
 
@@ -1081,7 +1081,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;DatabaseSystems">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
-        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DatabaseModeling"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;InformationManagement"/>
     </NamedIndividual>
     
 
@@ -1828,7 +1828,7 @@
 
     <NamedIndividual rdf:about="&ThesisOntology2;InformationModelsAndSystems">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
-        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;DatabaseModeling"/>
+        <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;InformationManagement"/>
     </NamedIndividual>
     
 
