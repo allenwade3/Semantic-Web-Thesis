@@ -2626,6 +2626,15 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#ProcessAssessmentModels -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;ProcessAssessmentModels">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProcesses"/>
+    </NamedIndividual>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#ProcessesAndThreads -->
 
     <NamedIndividual rdf:about="&ThesisOntology2;ProcessesAndThreads">
@@ -3162,6 +3171,24 @@
     <NamedIndividual rdf:about="&ThesisOntology2;SoftwareEvolution">
         <rdf:type rdf:resource="&ThesisOntology;Unit"/>
         <ThesisOntology:in-knowledge-area rdf:resource="&ThesisOntology2;SoftwareEngineering"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareLifeCycleAndProcessModels -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareLifeCycleAndProcessModels">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProcesses"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://localhost/ontologies/ThesisOntology.owl#SoftwareProcessMetrics -->
+
+    <NamedIndividual rdf:about="&ThesisOntology2;SoftwareProcessMetrics">
+        <rdf:type rdf:resource="&ThesisOntology;Topic"/>
+        <ThesisOntology:in-unit rdf:resource="&ThesisOntology2;SoftwareProcesses"/>
     </NamedIndividual>
     
 
