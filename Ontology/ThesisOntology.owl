@@ -24,6 +24,17 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Datatypes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -46,6 +57,7 @@
     <!-- http://localhost/ontologies/ThesisOntology.owl#has-resource -->
 
     <ObjectProperty rdf:about="&ThesisOntology2;has-resource">
+        <rdfs:label xml:lang="en">has-resource</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology2;Resource"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Discipline"/>
@@ -62,6 +74,7 @@
 
     <ObjectProperty rdf:about="&ThesisOntology;content-by">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">content by</rdfs:label>
     </ObjectProperty>
     
 
@@ -70,6 +83,7 @@
 
     <ObjectProperty rdf:about="&ThesisOntology;contents">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">contents</rdfs:label>
         <inverseOf rdf:resource="&ThesisOntology;content-by"/>
     </ObjectProperty>
     
@@ -78,6 +92,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#develops -->
 
     <ObjectProperty rdf:about="&ThesisOntology;develops">
+        <rdfs:label xml:lang="en">develops</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Entity"/>
         <rdfs:range rdf:resource="&ThesisOntology;Tool"/>
     </ObjectProperty>
@@ -87,6 +102,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#has-concept -->
 
     <ObjectProperty rdf:about="&ThesisOntology;has-concept">
+        <rdfs:label xml:lang="en">has-concept</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Topic"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;contents"/>
@@ -98,6 +114,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#has-knowledge-area -->
 
     <ObjectProperty rdf:about="&ThesisOntology;has-knowledge-area">
+        <rdfs:label xml:lang="en">has-knowledge-area</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Discipline"/>
         <rdfs:range rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;contents"/>
@@ -108,6 +125,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#has-topic -->
 
     <ObjectProperty rdf:about="&ThesisOntology;has-topic">
+        <rdfs:label xml:lang="en">has-topic</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology;Topic"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Unit"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;contents"/>
@@ -118,6 +136,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#has-unit -->
 
     <ObjectProperty rdf:about="&ThesisOntology;has-unit">
+        <rdfs:label xml:lang="en">has-unit</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <rdfs:range rdf:resource="&ThesisOntology;Unit"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;contents"/>
@@ -128,6 +147,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#implemented-by -->
 
     <ObjectProperty rdf:about="&ThesisOntology;implemented-by">
+        <rdfs:label xml:lang="en">implemented-by</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:range rdf:resource="&ThesisOntology;Tool"/>
         <inverseOf rdf:resource="&ThesisOntology;implements"/>
@@ -138,6 +158,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#implements -->
 
     <ObjectProperty rdf:about="&ThesisOntology;implements">
+        <rdfs:label xml:lang="en">implements</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Tool"/>
     </ObjectProperty>
@@ -147,6 +168,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#in-discipline -->
 
     <ObjectProperty rdf:about="&ThesisOntology;in-discipline">
+        <rdfs:label xml:lang="en">in-discipline</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology;Discipline"/>
         <rdfs:domain rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;content-by"/>
@@ -158,6 +180,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#in-knowledge-area -->
 
     <ObjectProperty rdf:about="&ThesisOntology;in-knowledge-area">
+        <rdfs:label xml:lang="en">in-knowledge-area</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Unit"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;content-by"/>
@@ -169,6 +192,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#in-topic -->
 
     <ObjectProperty rdf:about="&ThesisOntology;in-topic">
+        <rdfs:label xml:lang="en">in-topic</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:range rdf:resource="&ThesisOntology;Topic"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;content-by"/>
@@ -179,6 +203,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#in-unit -->
 
     <ObjectProperty rdf:about="&ThesisOntology;in-unit">
+        <rdfs:label xml:lang="en">in-unit</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Topic"/>
         <rdfs:range rdf:resource="&ThesisOntology;Unit"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;content-by"/>
@@ -190,6 +215,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#is-reference-in -->
 
     <ObjectProperty rdf:about="&ThesisOntology;is-reference-in">
+        <rdfs:label xml:lang="en">is-reference-in</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Entity"/>
         <rdfs:range rdf:resource="&ThesisOntology;KnowledgeArea"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -201,6 +227,7 @@
 
     <ObjectProperty rdf:about="&ThesisOntology;preceded-by">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">preceded-by</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:subPropertyOf rdf:resource="&ThesisOntology;related-to"/>
     </ObjectProperty>
@@ -211,6 +238,7 @@
 
     <ObjectProperty rdf:about="&ThesisOntology;related-to">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label xml:lang="en">related-to</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
     </ObjectProperty>
@@ -220,6 +248,7 @@
     <!-- http://www.semanticweb.org/ontologies/2011/6/ThesisOntology.owl#states -->
 
     <ObjectProperty rdf:about="&ThesisOntology;states">
+        <rdfs:label xml:lang="en">states</rdfs:label>
         <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Entity"/>
     </ObjectProperty>
