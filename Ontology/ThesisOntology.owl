@@ -82,6 +82,24 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#has-annotation -->
+
+    <ObjectProperty rdf:about="&ThesisOntology;has-annotation">
+        <rdfs:range rdf:resource="&ThesisOntology;Concept"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Discipline"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Enterprise"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Entity"/>
+        <rdfs:range rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Person"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Resource"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Team"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Tool"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Topic"/>
+        <rdfs:range rdf:resource="&ThesisOntology;Unit"/>
+    </ObjectProperty>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#has-concept -->
 
     <ObjectProperty rdf:about="&ThesisOntology;has-concept">
@@ -108,15 +126,18 @@
     <!-- http://localhost/ontologies/ThesisOntology.owl#has-resource -->
 
     <ObjectProperty rdf:about="&ThesisOntology;has-resource">
-        <rdfs:label xml:lang="en">has-resource</rdfs:label>
         <rdfs:domain rdf:resource="&ThesisOntology;Concept"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Discipline"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Enterprise"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Entity"/>
         <rdfs:domain rdf:resource="&ThesisOntology;KnowledgeArea"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Person"/>
         <rdfs:range rdf:resource="&ThesisOntology;Resource"/>
+        <rdfs:domain rdf:resource="&ThesisOntology;Team"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Tool"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Topic"/>
         <rdfs:domain rdf:resource="&ThesisOntology;Unit"/>
+        <inverseOf rdf:resource="&ThesisOntology;has-annotation"/>
     </ObjectProperty>
     
 
