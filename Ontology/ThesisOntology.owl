@@ -72,6 +72,14 @@
     
 
 
+    <!-- http://localhost/ontologies/ThesisOntology.owl#developed-by -->
+
+    <ObjectProperty rdf:about="&ThesisOntology;developed-by">
+        <inverseOf rdf:resource="&ThesisOntology;develops"/>
+    </ObjectProperty>
+    
+
+
     <!-- http://localhost/ontologies/ThesisOntology.owl#develops -->
 
     <ObjectProperty rdf:about="&ThesisOntology;develops">
